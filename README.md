@@ -2,10 +2,12 @@
 
 ## Example using Matrix.Scaling
 
+```C#
 var scaleWidth = 2.0F;
 var scaleHeight = 2.0F;
 var transformMatrix = Matrix3x2.Scaling(scaleWidth, scaleHeight);
 d2dContext.Transform = transformMatrix;
+```
 
 ## Results of upscaling
 
